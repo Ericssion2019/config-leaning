@@ -3,8 +3,8 @@ spring:
     name: ericssion
   cloud:
     config:
-      profile: dev
-      label: master
+      profile: prod
+      label: config-label-test
       uri: http://localhost:8090/
 server:
   port: 8091
