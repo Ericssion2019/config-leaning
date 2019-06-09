@@ -1,6 +1,9 @@
 server:
   port: 8090
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
 spring:
   cloud:
     config:
@@ -8,5 +11,90 @@ spring:
         git:
           uri: https://github.com/Ericssion2019/config-leaning.git
           search-paths: config-repository
-          username: Ericssion2019
-          password: sichao2019
+          username: ${ericssion.nam}
+          password: ${ericssion.passw}
+
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/Ericssion2019/config-leaning.git
+#          search-paths: {application}
+#          username: ericssion.nam
+#          password: ericssion.passw
+#          repos:
+#            dev:
+#              patern: dev/*
+#              uri: file:/C:/Users/ADMINI~1/AppData/Local/Temp/config-repo-7238231322160221143/config-repository
+#            test: https://github.com/Ericssion2019/test/config-leaning.git
+#            prod:
+#              patern: prod/er*,online/oo*
+#              uri: https://github.com/Ericssion2019/prod/config-leaning.git
+#          basedir: file:/D:/config-repository
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ericssion:
+  nam: Ericssion2019
+  passw: sichao2019
