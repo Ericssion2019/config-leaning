@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ericssion
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:8090/
+server:
+  port: 8091
