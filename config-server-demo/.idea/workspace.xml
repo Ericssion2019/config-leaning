@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="333ec42f-48eb-41a3-b550-8f82b6a4a12d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-client/src/main/java/com/arbfintech/configclient/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/java/com/arbfintech/configclient/controller/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application-remote.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application-remote.yml" afterDir="false" />
     </list>
@@ -111,7 +112,7 @@
           <entry key="properties" value="11" />
           <entry key="txt" value="7" />
           <entry key="xml" value="12" />
-          <entry key="yml" value="272" />
+          <entry key="yml" value="307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -120,19 +121,19 @@
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Properties" value="11" />
           <entry key="XML" value="12" />
-          <entry key="YAML" value="272" />
+          <entry key="YAML" value="307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="properties" value="1" />
-          <entry key="yml" value="4" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Properties" value="1" />
-          <entry key="YAML" value="4" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -252,10 +253,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/arbfintech/configclient/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="27">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -313,8 +316,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application-remote.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="324">
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -361,13 +373,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/config-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/config-client/src/main/java/com/arbfintech/configclient/controller/TestController.java" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/arbfintech/ericssion/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/src/main/java/com/arbfintech/ericssion/configserver/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/java/com/arbfintech/configclient/ConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/java/com/arbfintech/configclient/controller/TestController.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/application-remote.yml" />
       </list>
@@ -518,7 +530,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560161506085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560165248878" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -609,7 +621,7 @@
       <workItem from="1560068421465" duration="320000" />
       <workItem from="1560069158254" duration="4768000" />
       <workItem from="1560082754556" duration="25424000" />
-      <workItem from="1560158463805" duration="3040000" />
+      <workItem from="1560158463805" duration="4775000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1559981682551</created>
@@ -643,7 +655,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51155000" />
+    <option name="totallyTimeSpent" value="52890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -656,13 +668,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2457356" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2457356" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3289689" />
@@ -671,7 +684,7 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32790446" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -679,7 +692,7 @@
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.6058632" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.40933767" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Maven Projects" order="2" />
@@ -737,16 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/arbfintech/configclient/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/arbfintech/ericssion/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -783,13 +786,6 @@
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/arbfintech/ericssion/configserver/ConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -800,10 +796,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/arbfintech/configclient/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application-remote.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="324">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
         </state>
       </provider>
     </entry>

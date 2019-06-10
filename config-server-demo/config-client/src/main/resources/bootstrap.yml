@@ -7,7 +7,7 @@ eureka:
 
 spring:
   application:
-    name: config-server-demo
+    name: config-client
 #    name: ericssion   # 对应配置文件规则中的{application}
   cloud:
     config:
