@@ -3,16 +3,16 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:9090/eureka/
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/Ericssion2019/config-leaning.git
-          search-paths: config-repository
-          username: ${ericssion.nam}
-          password: ${ericssion.passw}
+          uri: https://github.com/Ericssion2019/config-leaning.git #  Git仓库位置
+          search-paths: config-repository  #  配置仓库路径下的相对搜索位置，可配置多个
+          username: ${ericssion.nam}  # git账号信息
+          password: ${ericssion.passw} # git账号信息
 
 #spring:
 #  cloud:
@@ -20,9 +20,9 @@ spring:
 #      server:
 #        git:
 #          uri: https://github.com/Ericssion2019/config-leaning.git
-#          search-paths: {application}
-#          username: ericssion.nam
-#          password: ericssion.passw
+#          search-paths: config-repository/{application}
+#          username: ${ericssion.nam}
+#          password: ${ericssion.passw}
 #          repos:
 #            dev:
 #              patern: dev/*
