@@ -4,25 +4,29 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:9090/eureka/
-spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/Ericssion2019/config-leaning.git    #  Git仓库位置
-          search-paths: config-repository,config-client-config  #  配置仓库路径下的相对搜索位置，可配置多个
-          username: ${ericssion.nam}       # git账号信息
-          password: ${ericssion.passw}     # git账号信息
-
 #spring:
 #  cloud:
 #    config:
 #      server:
 #        git:
-#          uri: https://github.com/Ericssion2019/config-leaning.git             #  Git仓库位置
-#          search-paths: '{application}-config'    #  配置仓库路径下的相对搜索位置，可配置多个
-#          username: ${ericssion.nam}            # git账号信息
-#          password: ${ericssion.passw}          # git账号信息
+#          uri: https://github.com/Ericssion2019/config-leaning.git    #  Git仓库位置
+#          search-paths: config-repository,config-client-config  #  配置仓库路径下的相对搜索位置，可配置多个
+#          username: ${ericssion.nam}       # git账号信息
+#          password: ${ericssion.passw}     # git账号信息
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Ericssion2019/config-leaning.git             #  Git仓库位置
+          search-paths: '{application}-config'    #  配置仓库路径下的相对搜索位置，可配置多个
+          username: ${ericssion.nam}             # git账号信息
+          password: ${ericssion.passw}          # git账号信息
+        overrides:                                #属性覆盖，以Map的形式加载到客户端配置中
+          name: didi
+          from: shanghai
+
 
 #spring:
 #  cloud:
@@ -30,7 +34,7 @@ spring:
 #      server:
 #        git:
 #          uri: https://github.com/Ericssion2019/config-leaning.git
-#          search-paths: config-repository/{application}
+#          search-paths: '{application}-config'
 #          username: ${ericssion.nam}
 #          password: ${ericssion.passw}
 #          repos:
