@@ -7,7 +7,8 @@ eureka:
 
 spring:
   application:
-    name: ericssion   # 对应配置文件规则中的{application}
+    name: config-server-demo
+#    name: ericssion   # 对应配置文件规则中的{application}
   cloud:
     config:
       profile: dev    # 对应配置文件规则中的{profile}
@@ -23,7 +24,7 @@ spring:
 
 #spring:
 #  application:
-#    name: ericssion
+#    name: config-server-demo
 #  cloud:
 #    config:
 #      discovery:
