@@ -23,9 +23,9 @@ spring:
           search-paths: '{application}-config'    #  配置仓库路径下的相对搜索位置，可配置多个
           username: ${ericssion.nam}             # git账号信息
           password: ${ericssion.passw}          # git账号信息
-        overrides:                                #属性覆盖，以Map的形式加载到客户端配置中
-          name: didi
-          from: shanghai
+#        overrides:                                #属性覆盖，以Map的形式加载到客户端配置中
+#          name: didi
+#          from: shanghai
 
 
 #spring:
